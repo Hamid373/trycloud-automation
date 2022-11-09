@@ -68,6 +68,12 @@
             <version>7.3.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+            <version>LATEST</version>
+        </dependency>
+
 
     </dependencies>
 
