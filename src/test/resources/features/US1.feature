@@ -1,5 +1,5 @@
-
-Feature: As a user, I should be accessing all the main modules of the app.
+@wip @login
+Feature: As a user, I should be able to log in.
 
   Scenario Outline: Verify login with valid credentials
     Given user on the login page Try Cloud Login Page
@@ -10,22 +10,5 @@ Feature: As a user, I should be accessing all the main modules of the app.
     Examples:
       | username | password    |
       | user7    | Userpass123 |
-
-
-
- #Feature: As a user, I should be accessing all the main modules of the app.
-
-   Scenario:  Verify users accessing all the main modules of the app.
-     Given user on the login page
-     When the users  log in with valid credentials
-     Then Verify the user see the following modules:
-       | Dashboard |
-       | Files     |
-       | Photos    |
-       | Activity  |
-       | Talk    |
-       | Contacts  |
-       | Circles   |
-       | Calendar  |
-       | Deck      |
-       | More apps  |
+      | user34   | Userpass123 |
+      | user99   | Userpass123 |

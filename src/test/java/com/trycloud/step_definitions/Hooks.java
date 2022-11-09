@@ -22,7 +22,7 @@ public class Hooks {
         Driver.closeDriver();
     }
 
-    @Before(value = "@login")
+    //@Before(value = "@login")
     public void setupScenario(){
 
     }
